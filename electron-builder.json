@@ -1,0 +1,19 @@
+{
+    "appId": "com.k-westerberg.browser-app",
+    "files": ["dist-electron","dist-react"],
+    "icon": "./desktopIcon.ico",
+    "mac": {
+        "target":"dmg"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "win": {
+        "target": ["portable","msi"]
+    }
+
+
+
+
+}
